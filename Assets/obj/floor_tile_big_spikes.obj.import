@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/floor_tile_big_spikes.obj-a0c27b5d0a4e42d321cad72b7ed73fdc.mesh"
+
+[deps]
+
+files=[ "res://.import/floor_tile_big_spikes.obj-a0c27b5d0a4e42d321cad72b7ed73fdc.mesh" ]
+
+source_file="res://Assets/obj/floor_tile_big_spikes.obj"
+dest_files=[ "res://.import/floor_tile_big_spikes.obj-a0c27b5d0a4e42d321cad72b7ed73fdc.mesh", "res://.import/floor_tile_big_spikes.obj-a0c27b5d0a4e42d321cad72b7ed73fdc.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

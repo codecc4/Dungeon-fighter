@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/keg_decorated.obj-16f1dae3d18506eeb132bf02b8f3fcbd.mesh"
+
+[deps]
+
+files=[ "res://.import/keg_decorated.obj-16f1dae3d18506eeb132bf02b8f3fcbd.mesh" ]
+
+source_file="res://Assets/obj/keg_decorated.obj"
+dest_files=[ "res://.import/keg_decorated.obj-16f1dae3d18506eeb132bf02b8f3fcbd.mesh", "res://.import/keg_decorated.obj-16f1dae3d18506eeb132bf02b8f3fcbd.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

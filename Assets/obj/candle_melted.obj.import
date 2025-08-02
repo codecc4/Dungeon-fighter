@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/candle_melted.obj-8e01ae36816984557d2288f47e5f4614.mesh"
+
+[deps]
+
+files=[ "res://.import/candle_melted.obj-8e01ae36816984557d2288f47e5f4614.mesh" ]
+
+source_file="res://Assets/obj/candle_melted.obj"
+dest_files=[ "res://.import/candle_melted.obj-8e01ae36816984557d2288f47e5f4614.mesh", "res://.import/candle_melted.obj-8e01ae36816984557d2288f47e5f4614.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

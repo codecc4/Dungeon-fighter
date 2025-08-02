@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Assets/obj/wall_arched.obj" type="ArrayMesh" id=1]
+
+[sub_resource type="ConvexPolygonShape" id=1]
+points = PoolVector3Array( -1.91223, 0.0877561, -0.5, 1.85247, 3.85207, 0.5, 1.85247, 0.147507, 0.5, 1.91223, 3.91182, -0.5, -1.85247, 3.85207, 0.5, 1.91223, 0.0877561, -0.5, -1.91223, 3.91182, -0.5, -1.85247, 0.147507, 0.5 )
+
+[node name="wall_arched" type="Spatial"]
+
+[node name="wall_arched" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.248726, 0, 2.20106 )
+mesh = ExtResource( 1 )
+
+[node name="CollisionShape" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.248726, 0, 2.20106 )
+shape = SubResource( 1 )

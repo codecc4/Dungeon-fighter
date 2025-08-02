@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Assets/obj/wall_window_closed.obj" type="ArrayMesh" id=1]
+
+[sub_resource type="ConvexPolygonShape" id=1]
+points = PoolVector3Array( -1.91223, 0.0878083, -0.5, 1.85247, 3.8524, 0.5, 1.85247, 0.147563, 0.5, 1.91223, 3.91215, -0.5, -1.85247, 3.8524, 0.5, -1.91223, 3.91215, -0.5, 1.91223, 0.0878083, -0.5, -1.85247, 0.147563, 0.5 )
+
+[node name="wall_closed_wooden-window" type="Spatial"]
+
+[node name="wall_window_closed" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.13207, 0, -0.271111 )
+mesh = ExtResource( 1 )
+
+[node name="CollisionShape" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.13207, 0, -0.271111 )
+shape = SubResource( 1 )

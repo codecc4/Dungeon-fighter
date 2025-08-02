@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/keyring.obj-c2a772b9e4d6e2be696055a94f59b10d.mesh"
+
+[deps]
+
+files=[ "res://.import/keyring.obj-c2a772b9e4d6e2be696055a94f59b10d.mesh" ]
+
+source_file="res://Assets/obj/keyring.obj"
+dest_files=[ "res://.import/keyring.obj-c2a772b9e4d6e2be696055a94f59b10d.mesh", "res://.import/keyring.obj-c2a772b9e4d6e2be696055a94f59b10d.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

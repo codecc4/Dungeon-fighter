@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Assets/obj/wall_Tsplit_sloped.obj" type="ArrayMesh" id=1]
+
+[sub_resource type="ConvexPolygonShape" id=1]
+points = PoolVector3Array( -0.507937, -0.031746, 0.611123, 2.03175, 4.03119, 0.547485, 1.98152, 3.98097, -0.5, -2.03175, 4.03119, 0.547485, 0.507937, -0.031746, 2.00794, 1.98113, 0.0192516, -0.5, -2.03175, 0.286417, -0.531634, -1.98152, 3.98097, -0.5, -2.03175, -0.0313483, 0.547485, 0.471179, 3.88418, 1.15, -0.507937, 0.349652, 2.00794, 2.03175, -0.0313483, 0.547485, -0.471179, 3.88418, 1.15, -1.98113, 0.0192516, -0.5, 2.03175, 0.286417, -0.531634, 0.507937, 0.349652, 2.00794, -0.507937, -0.031746, 2.00794 )
+
+[node name="t_wall_one side sloped" type="Spatial"]
+
+[node name="wall_Tsplit_sloped" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.34238, 0, 3.93135 )
+mesh = ExtResource( 1 )
+
+[node name="CollisionShape" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.34238, 0, 3.93135 )
+shape = SubResource( 1 )

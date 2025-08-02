@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Assets/obj/floor_tile_small_broken_A.obj" type="ArrayMesh" id=1]
+
+[sub_resource type="ConvexPolygonShape" id=1]
+points = PoolVector3Array( -1, -0.1, -1, -1, -0.1, 1, -1, 0.05, -1, 1, -0.1, -1, -1, 0.05, 1, 1, -0.1, 1, 1, 0.05, -1, 1, 0.05, 1 )
+
+[node name="floor_tile_small_broken_A" type="Spatial"]
+
+[node name="floor_tile_small_broken_A" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 0 )
+mesh = ExtResource( 1 )
+
+[node name="CollisionShape" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 0 )
+shape = SubResource( 1 )

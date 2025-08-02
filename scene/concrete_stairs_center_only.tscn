@@ -1,0 +1,163 @@
+[gd_scene load_steps=24 format=2]
+
+[ext_resource path="res://Assets/obj/stairs_long_modular_center.obj" type="ArrayMesh" id=1]
+
+[sub_resource type="ConvexPolygonShape" id=1]
+points = PoolVector3Array( 1.01818, 2.4182, 4.01816, -1.01818, 2.49089, 3.83638, -1.01818, 2.52726, 3.83638, -1.01818, 2.38183, 4.01816, 1.01818, 2.38183, 3.94543, 1.01818, 2.52726, 3.83638, -1.01818, 2.52726, 3.90911, -1.01818, 2.38183, 3.94543, 1.01818, 2.52726, 3.90911, -1.01818, 2.4182, 4.01816, 1.01818, 2.49089, 3.83638, 1.01818, 2.38183, 4.01816 )
+
+[sub_resource type="ConvexPolygonShape" id=2]
+points = PoolVector3Array( -1.01818, 2.05455, 3.98183, 1.01818, 2.38182, 4.01818, 1.01818, 2.38182, 3.98183, -1.01818, 2.38182, 4.01818, 1.01818, 2.05455, 4.01818, 1.01818, 2.05455, 3.98183, -1.01818, 2.38182, 3.98183, -1.01818, 2.05455, 4.01818 )
+
+[sub_resource type="ConvexPolygonShape" id=3]
+points = PoolVector3Array( 1.01818, 0.527266, 7.47273, -1.01818, 0.490913, 7.07277, -1.01818, 0.527266, 7.07277, 1.01818, 0.490913, 7.07277, -1.01818, 0.490913, 7.47273, -1.01818, 0.527266, 7.47273, 1.01818, 0.527266, 7.07277, 1.01818, 0.490913, 7.47273 )
+
+[sub_resource type="ConvexPolygonShape" id=4]
+points = PoolVector3Array( -0.975754, 0.5, 7.07045, 1.01818, 0.92723, 7.03635, 1.01818, 0.92723, 6.96364, -1.01818, 0.92723, 7.03635, -1.01818, 0.490909, 6.96364, 1.01818, 0.490909, 6.96364, 1.01818, 0.52734, 7.07273, -1.01818, 0.92723, 6.96364, -1.01818, 0.52734, 7.07273, 0.975754, 0.5, 7.07045 )
+
+[sub_resource type="ConvexPolygonShape" id=5]
+points = PoolVector3Array( -1.01818, 1.58186, 4.96364, 1.01818, 2.01814, 4.92729, 0.933516, 2, 4.89697, -1.01818, 2.01814, 4.92729, 1.01818, 1.90906, 5.03635, 1.01818, 1.58186, 4.96364, -1.01818, 1.58186, 5.03635, -1.01818, 1.90906, 5.03635, -1.01818, 1.9454, 4.89092, 1.01818, 1.58186, 5.03635, 1.01818, 1.9454, 4.89092 )
+
+[sub_resource type="ConvexPolygonShape" id=6]
+points = PoolVector3Array( 1.01818, 2.01818, 4.89091, -1.01818, 1.98182, 4.23636, -1.01818, 2.01818, 4.23636, 1.01818, 1.98182, 4.23636, -1.01818, 1.98182, 4.89091, -1.01818, 2.01818, 4.89091, 1.01818, 2.01818, 4.23636, 1.01818, 1.98182, 4.89091 )
+
+[sub_resource type="ConvexPolygonShape" id=7]
+points = PoolVector3Array( 1.01818, 2.01818, 4.23636, -1.01818, 1.98183, 3.98182, -1.01818, 2.05454, 3.98182, 1.01818, 1.98183, 3.98182, -1.01818, 1.98183, 4.23636, 1.01818, 2.05454, 3.98182, 1.01818, 1.98183, 4.23636, -1.01818, 2.01818, 4.23636, 1.01818, 2.05454, 4.01822 )
+
+[sub_resource type="ConvexPolygonShape" id=8]
+points = PoolVector3Array( -1.01818, 1.07277, 5.9818, 1.01818, 1.50905, 5.94547, 1.01818, 1.50905, 5.90909, -1.01818, 1.50905, 5.94547, 1.01818, 1.07277, 6.01818, -1.01818, 1.43631, 6.01818, 1.01818, 1.43631, 6.01818, -1.01818, 1.43631, 5.90909, 1.01818, 1.07277, 5.9818, -1.01818, 1.07277, 6.01818, 1.01818, 1.43631, 5.90909, -1.01818, 1.50905, 5.90909 )
+
+[sub_resource type="ConvexPolygonShape" id=9]
+points = PoolVector3Array( 1.01818, 1.03635, 6.38182, -1.01818, 0.963647, 5.98186, -0.92581, 1.06778, 6, 1.01818, 0.963647, 5.98186, -1.01818, 0.963647, 6.38182, 1.01818, 1.07273, 6.01823, -1.01818, 1.03635, 6.38182, 1.01818, 0.963647, 6.38182, -1.01818, 1.07273, 6.01823 )
+
+[sub_resource type="ConvexPolygonShape" id=10]
+points = PoolVector3Array( 1.01818, 3.50909, 1.61818, -1.01818, 3.47273, 1.03648, -1.01818, 3.50909, 1.03648, 1.01818, 3.47273, 1.03648, -1.01818, 3.47273, 1.61818, -1.01818, 3.50909, 1.61818, 1.01818, 3.50909, 1.03648, 1.01818, 3.47273, 1.61818 )
+
+[sub_resource type="ConvexPolygonShape" id=11]
+points = PoolVector3Array( -1.01818, 3.47273, 0.963651, 1.01818, 3.94545, 0.999986, 1.01818, 3.94545, 0.927283, -1.01818, 3.94545, 0.999986, 1.01818, 3.47273, 1.03635, -1.01818, 3.90908, 1.03635, 1.01818, 3.47273, 0.963651, -1.01818, 3.90908, 0.927283, -1.01818, 3.47273, 1.03635, 1.01818, 3.90908, 1.03635, -1.01818, 3.94545, 0.927283 )
+
+[sub_resource type="ConvexPolygonShape" id=12]
+points = PoolVector3Array( -1.01818, -0.0180893, 7.98182, 1.01818, 0.454545, 7.98182, 1.01818, 0.454545, 7.94547, -1.01818, 0.454545, 7.98182, 1.01818, -0.0180893, 8.01818, -1.01818, 0.418132, 8.01818, 1.01818, -0.0180893, 7.98182, -1.01818, 0.381765, 7.94547, 1.01818, 0.418132, 8.01818, -1.01818, -0.0180893, 8.01818, 1.01818, 0.381765, 7.94547, -1.01818, 0.454545, 7.94547 )
+
+[sub_resource type="ConvexPolygonShape" id=13]
+points = PoolVector3Array( 1.01818, 0.490895, 7.94536, -1.01818, 0.490895, 7.47273, -1.01818, 0.527262, 7.47273, -1.01818, 0.418193, 7.94536, 1.01818, 0.490895, 7.47273, -1.01818, 0.527262, 7.90904, 1.01818, 0.418193, 7.90904, 1.01818, 0.527262, 7.47273, 1.01818, 0.527262, 7.90904, -1.01818, 0.490895, 7.94536, -1.01818, 0.418193, 7.90904, 1.01818, 0.418193, 7.94536 )
+
+[sub_resource type="ConvexPolygonShape" id=14]
+points = PoolVector3Array( 1.01818, 0.963651, 6.99994, -1.01818, 0.963651, 6.38182, -1.01818, 1.03635, 6.38182, 1.01818, 0.963651, 6.38182, -1.01818, 0.927283, 6.99994, 1.01818, 1.03635, 6.92721, -1.01818, 1.03635, 6.92721, 1.01818, 1.03635, 6.38182, 1.01818, 0.927283, 6.92721, -1.01818, 0.963651, 6.99994, -1.01818, 0.927283, 6.92721, 1.01818, 0.927283, 6.99994 )
+
+[sub_resource type="ConvexPolygonShape" id=15]
+points = PoolVector3Array( 1.01818, 1.50911, 5.90909, -1.01818, 1.47275, 4.96364, -0.93986, 1.57762, 5, 1.01818, 1.47275, 4.96364, -1.01818, 1.47275, 5.90909, 1.01818, 1.58182, 5.03638, -1.01818, 1.50911, 5.90909, 1.01818, 1.47275, 5.90909, -1.01818, 1.58182, 5.03638, 0.93986, 1.57762, 5 )
+
+[sub_resource type="ConvexPolygonShape" id=16]
+points = PoolVector3Array( 1.01818, 2.52727, 3.83629, -1.01818, 2.49091, 3.07273, -1.01818, 2.52727, 3.07273, 1.01818, 2.49091, 3.07273, -1.01818, 2.49091, 3.83629, -1.01818, 2.52727, 3.83629, 1.01818, 2.52727, 3.07273, 1.01818, 2.49091, 3.83629 )
+
+[sub_resource type="ConvexPolygonShape" id=17]
+points = PoolVector3Array( -0.975758, 2.5, 3.07045, 1.01818, 2.92727, 3.03635, 1.01818, 2.92727, 2.96364, -1.01818, 2.92727, 3.03635, -1.01818, 2.49091, 2.96364, 1.01818, 2.49091, 2.96364, 1.01818, 2.52734, 3.07273, -1.01818, 2.92727, 2.96364, -1.01818, 2.52734, 3.07273, 0.975758, 2.5, 3.07045 )
+
+[sub_resource type="ConvexPolygonShape" id=18]
+points = PoolVector3Array( -1.01818, 2.96364, 2.09088, 1.01818, 3.47273, 1.98184, 1.01818, 3.47273, 1.94547, 1.01818, 2.96364, 2.09088, 1.01818, 2.96364, 1.98184, -1.01818, 3.47273, 1.94547, -1.01818, 2.96364, 1.98184, -1.01818, 3.4363, 2.01818, 1.01818, 3.4363, 2.01818, 1.01818, 3.03644, 2.09088, -1.01818, 3.39992, 1.94547, -1.01818, 3.03644, 2.09088, 1.01818, 3.39992, 1.94547 )
+
+[sub_resource type="ConvexPolygonShape" id=19]
+points = PoolVector3Array( 1.01818, 3.43637, 1.94545, -1.01818, 3.47273, 1.61825, -1.01818, 3.50908, 1.61825, 1.01818, 3.47273, 1.61825, -1.01818, 3.50908, 1.94545, 1.01818, 3.50908, 1.94545, -1.01818, 3.43637, 1.94545, 1.01818, 3.50908, 1.61825, 1.01818, 3.43637, 1.90903 )
+
+[sub_resource type="ConvexPolygonShape" id=20]
+points = PoolVector3Array( -1.01818, 3.98182, 0.0182744, -1.01818, 4.01817, 0.0182744, 1.01818, 3.98182, 0.0182744, -0.996951, 3.94622, 0.95378, 1.01818, 4.01817, 0.927177, -1.01818, 4.01817, 0.927177, 1.01818, 3.94546, 0.890809, 1.01818, 4.01817, 0.0182744, 0.996951, 3.94622, 0.95378, -1.01818, 3.94546, 0.890809 )
+
+[sub_resource type="ConvexPolygonShape" id=21]
+points = PoolVector3Array( 1.01818, 2.96365, 3, -1.01818, 2.96365, 2.09091, -1.01818, 3.03636, 2.09091, 1.01818, 2.96365, 2.09091, -1.01818, 2.92727, 2.92721, 1.01818, 3.03636, 2.92721, -1.01818, 3.03636, 2.92721, 1.01818, 3.03636, 2.09091, 1.01818, 2.92727, 2.92721, -1.01818, 2.96365, 3, -0.94876, 2.93099, 2.96901 )
+
+[sub_resource type="ConvexPolygonShape" id=22]
+points = PoolVector3Array( 1.01818, 4.01818, -0.0181818, -1.01818, -0.0181818, -0.0181818, -1.01818, 4.01818, -0.0181818, 1.01818, -0.0181818, -0.0181818 )
+
+[node name="concrete_stairs_center_only" type="Spatial"]
+
+[node name="stairs_long_modular_center" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.65971, 0, 4.79121 )
+mesh = ExtResource( 1 )
+
+[node name="CollisionShape22" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.65971, 0, 4.79121 )
+shape = SubResource( 1 )
+
+[node name="CollisionShape21" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.65971, 0, 4.79121 )
+shape = SubResource( 2 )
+
+[node name="CollisionShape20" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.65971, 0, 4.79121 )
+shape = SubResource( 3 )
+
+[node name="CollisionShape19" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.65971, 0, 4.79121 )
+shape = SubResource( 4 )
+
+[node name="CollisionShape18" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.65971, 0, 4.79121 )
+shape = SubResource( 5 )
+
+[node name="CollisionShape17" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.65971, 0, 4.79121 )
+shape = SubResource( 6 )
+
+[node name="CollisionShape16" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.65971, 0, 4.79121 )
+shape = SubResource( 7 )
+
+[node name="CollisionShape15" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.65971, 0, 4.79121 )
+shape = SubResource( 8 )
+
+[node name="CollisionShape14" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.65971, 0, 4.79121 )
+shape = SubResource( 9 )
+
+[node name="CollisionShape13" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.65971, 0, 4.79121 )
+shape = SubResource( 10 )
+
+[node name="CollisionShape12" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.65971, 0, 4.79121 )
+shape = SubResource( 11 )
+
+[node name="CollisionShape11" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.65971, 0, 4.79121 )
+shape = SubResource( 12 )
+
+[node name="CollisionShape10" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.65971, 0, 4.79121 )
+shape = SubResource( 13 )
+
+[node name="CollisionShape9" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.65971, 0, 4.79121 )
+shape = SubResource( 14 )
+
+[node name="CollisionShape8" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.65971, 0, 4.79121 )
+shape = SubResource( 15 )
+
+[node name="CollisionShape7" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.65971, 0, 4.79121 )
+shape = SubResource( 16 )
+
+[node name="CollisionShape6" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.65971, 0, 4.79121 )
+shape = SubResource( 17 )
+
+[node name="CollisionShape5" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.65971, 0, 4.79121 )
+shape = SubResource( 18 )
+
+[node name="CollisionShape4" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.65971, 0, 4.79121 )
+shape = SubResource( 19 )
+
+[node name="CollisionShape3" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.65971, 0, 4.79121 )
+shape = SubResource( 20 )
+
+[node name="CollisionShape2" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.65971, 0, 4.79121 )
+shape = SubResource( 21 )
+
+[node name="CollisionShape" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.65971, 0, 4.79121 )
+shape = SubResource( 22 )

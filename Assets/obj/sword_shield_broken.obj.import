@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/sword_shield_broken.obj-d4a38139d560bc57066561c6bb6ebd18.mesh"
+
+[deps]
+
+files=[ "res://.import/sword_shield_broken.obj-d4a38139d560bc57066561c6bb6ebd18.mesh" ]
+
+source_file="res://Assets/obj/sword_shield_broken.obj"
+dest_files=[ "res://.import/sword_shield_broken.obj-d4a38139d560bc57066561c6bb6ebd18.mesh", "res://.import/sword_shield_broken.obj-d4a38139d560bc57066561c6bb6ebd18.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

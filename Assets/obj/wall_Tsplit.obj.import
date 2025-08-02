@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/wall_Tsplit.obj-f3108c82c259b1ceb45d67caaceffbdb.mesh"
+
+[deps]
+
+files=[ "res://.import/wall_Tsplit.obj-f3108c82c259b1ceb45d67caaceffbdb.mesh" ]
+
+source_file="res://Assets/obj/wall_Tsplit.obj"
+dest_files=[ "res://.import/wall_Tsplit.obj-f3108c82c259b1ceb45d67caaceffbdb.mesh", "res://.import/wall_Tsplit.obj-f3108c82c259b1ceb45d67caaceffbdb.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

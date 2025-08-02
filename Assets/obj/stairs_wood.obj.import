@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/stairs_wood.obj-2f5dad756d85df03e479c25cbcc4d076.mesh"
+
+[deps]
+
+files=[ "res://.import/stairs_wood.obj-2f5dad756d85df03e479c25cbcc4d076.mesh" ]
+
+source_file="res://Assets/obj/stairs_wood.obj"
+dest_files=[ "res://.import/stairs_wood.obj-2f5dad756d85df03e479c25cbcc4d076.mesh", "res://.import/stairs_wood.obj-2f5dad756d85df03e479c25cbcc4d076.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

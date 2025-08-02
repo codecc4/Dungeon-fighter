@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/banner_patternC_green.obj-21d1fe6e631fec0ac4a49a57ee853c82.mesh"
+
+[deps]
+
+files=[ "res://.import/banner_patternC_green.obj-21d1fe6e631fec0ac4a49a57ee853c82.mesh" ]
+
+source_file="res://Assets/obj/banner_patternC_green.obj"
+dest_files=[ "res://.import/banner_patternC_green.obj-21d1fe6e631fec0ac4a49a57ee853c82.mesh", "res://.import/banner_patternC_green.obj-21d1fe6e631fec0ac4a49a57ee853c82.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

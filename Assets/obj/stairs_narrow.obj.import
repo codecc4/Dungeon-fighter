@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/stairs_narrow.obj-5f820c5121ef80828eae981f2f38362e.mesh"
+
+[deps]
+
+files=[ "res://.import/stairs_narrow.obj-5f820c5121ef80828eae981f2f38362e.mesh" ]
+
+source_file="res://Assets/obj/stairs_narrow.obj"
+dest_files=[ "res://.import/stairs_narrow.obj-5f820c5121ef80828eae981f2f38362e.mesh", "res://.import/stairs_narrow.obj-5f820c5121ef80828eae981f2f38362e.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Assets/obj/wall_pillar.obj" type="ArrayMesh" id=1]
+
+[sub_resource type="ConvexPolygonShape" id=1]
+points = PoolVector3Array( -1.92779, 0.0722034, -0.5, 1.83813, 3.83796, 0.5, 1.92779, 3.92762, -0.5, -1.92779, 3.92762, -0.5, -0.352913, 0.116316, 0.747572, 1.92779, 0.0722034, -0.5, -1.83813, 3.83796, 0.5, 1.83813, 0.161864, 0.5, -0.402234, 3.83924, -0.706471, -1.83813, 0.161864, 0.5, 0.352913, 3.88351, 0.747572, 0.402234, 0.160589, -0.706471, 0.352913, 0.116316, 0.747572, -0.352911, 3.8835, 0.747567, -0.402234, 0.160589, -0.706471, 0.402184, 3.83901, -0.706382 )
+
+[node name="wall_with_centered_pillar" type="Spatial"]
+
+[node name="wall_pillar" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2 )
+mesh = ExtResource( 1 )
+
+[node name="CollisionShape" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2 )
+shape = SubResource( 1 )

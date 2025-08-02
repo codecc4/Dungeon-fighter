@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/floor_tile_grate.obj-bf11b9e8176916040f24f34bdcc5043a.mesh"
+
+[deps]
+
+files=[ "res://.import/floor_tile_grate.obj-bf11b9e8176916040f24f34bdcc5043a.mesh" ]
+
+source_file="res://Assets/obj/floor_tile_grate.obj"
+dest_files=[ "res://.import/floor_tile_grate.obj-bf11b9e8176916040f24f34bdcc5043a.mesh", "res://.import/floor_tile_grate.obj-bf11b9e8176916040f24f34bdcc5043a.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Assets/obj/floor_wood_small.obj" type="ArrayMesh" id=1]
+
+[sub_resource type="ConvexPolygonShape" id=1]
+points = PoolVector3Array( -1, -0.1, -1, -1, -0.1, 1, -1, 0.0249951, -1, 1, -0.1, -1, -1, 0.0249951, 1, 1, -0.1, 1, -1, 0.05, -0.475137, -0.975137, 0.05, -0.975137, 1, 0.0249951, -1, -1, 0.05, 0.974941, 1, 0.0249951, 1, 0.974941, 0.05, -0.975137, 1, 0.05, -0.475137, 1, 0.05, 0.974941 )
+
+[node name="floor_wood_small" type="Spatial"]
+
+[node name="floor_wood_small" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.131359, -2.38419e-07, -0.16777 )
+mesh = ExtResource( 1 )
+
+[node name="CollisionShape" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.131359, -2.38419e-07, -0.16777 )
+shape = SubResource( 1 )

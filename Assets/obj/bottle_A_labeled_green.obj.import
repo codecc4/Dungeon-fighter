@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/bottle_A_labeled_green.obj-791121a0742cf34ae25862cb73ecfbbf.mesh"
+
+[deps]
+
+files=[ "res://.import/bottle_A_labeled_green.obj-791121a0742cf34ae25862cb73ecfbbf.mesh" ]
+
+source_file="res://Assets/obj/bottle_A_labeled_green.obj"
+dest_files=[ "res://.import/bottle_A_labeled_green.obj-791121a0742cf34ae25862cb73ecfbbf.mesh", "res://.import/bottle_A_labeled_green.obj-791121a0742cf34ae25862cb73ecfbbf.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

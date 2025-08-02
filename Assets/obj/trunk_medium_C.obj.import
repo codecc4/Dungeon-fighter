@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/trunk_medium_C.obj-bac50f1210eff08cf6ae03ffdc0948c2.mesh"
+
+[deps]
+
+files=[ "res://.import/trunk_medium_C.obj-bac50f1210eff08cf6ae03ffdc0948c2.mesh" ]
+
+source_file="res://Assets/obj/trunk_medium_C.obj"
+dest_files=[ "res://.import/trunk_medium_C.obj-bac50f1210eff08cf6ae03ffdc0948c2.mesh", "res://.import/trunk_medium_C.obj-bac50f1210eff08cf6ae03ffdc0948c2.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

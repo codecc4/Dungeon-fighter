@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/crates_stacked.obj-4c013bca52bc5a32171056449b712914.mesh"
+
+[deps]
+
+files=[ "res://.import/crates_stacked.obj-4c013bca52bc5a32171056449b712914.mesh" ]
+
+source_file="res://Assets/obj/crates_stacked.obj"
+dest_files=[ "res://.import/crates_stacked.obj-4c013bca52bc5a32171056449b712914.mesh", "res://.import/crates_stacked.obj-4c013bca52bc5a32171056449b712914.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286
