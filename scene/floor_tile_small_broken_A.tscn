@@ -5,7 +5,7 @@
 [sub_resource type="ConvexPolygonShape" id=1]
 points = PoolVector3Array( -1, -0.1, -1, -1, -0.1, 1, -1, 0.05, -1, 1, -0.1, -1, -1, 0.05, 1, 1, -0.1, 1, 1, 0.05, -1, 1, 0.05, 1 )
 
-[node name="floor_tile_small_broken_A" type="Spatial"]
+[node name="floor_tile_small_broken_A" type="StaticBody"]
 
 [node name="floor_tile_small_broken_A" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 0 )

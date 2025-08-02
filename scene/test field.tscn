@@ -1,13 +1,11 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://Assets/obj/floor_wood_large_dark.obj" type="ArrayMesh" id=1]
-[ext_resource path="res://scene/floor_wood_large_dark.gd" type="Script" id=2]
 
 [sub_resource type="ConvexPolygonShape" id=1]
 points = PoolVector3Array( -2, -0.1, -2, -2, -0.1, 2, -2, 0.0249951, -2, 2, -0.1, -2, -2, 0.0249951, 2, 2, -0.1, 2, -2, 0.05, -1.47533, -1.97533, 0.05, -1.97533, 2, 0.0249951, -2, -2, 0.05, 1.97494, 2, 0.0249951, 2, 1.97494, 0.05, -1.97533, 2, 0.05, -1.47533, 2, 0.05, 1.97494 )
 
-[node name="floor_wood_large_dark" type="StaticBody"]
-script = ExtResource( 2 )
+[node name="StaticBody" type="StaticBody"]
 
 [node name="floor_wood_large_dark" type="MeshInstance" parent="."]
 mesh = ExtResource( 1 )
