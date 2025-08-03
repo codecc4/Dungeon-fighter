@@ -308,7 +308,7 @@ points = PoolVector3Array( 0.762378, 0.256757, -0.0879066, 0.600216, -0.0134871,
 [sub_resource type="ConvexPolygonShape" id=102]
 points = PoolVector3Array( 0.00562169, 3.68919, 0.93916, -0.0213948, 3.50004, 0.831102, -0.0484271, 3.52705, 0.804083, 0.0596546, 3.63512, 0.777027, 0.0867028, 3.52705, 0.93916, -0.0484271, 3.52705, 0.966216, -0.0754594, 3.63512, 0.831102, 0.0867028, 3.66214, 0.93916, 0.0867028, 3.55407, 0.804083, -0.0754594, 3.66214, 0.93916, -0.0213948, 3.66214, 0.777027, 0.0596546, 3.52705, 0.777027, -0.0754594, 3.52705, 0.93916 )
 
-[node name="pillar_with_a_shield_hanged" type="Spatial"]
+[node name="pillar_with_a_shield_hanged" type="StaticBody"]
 
 [node name="pillar_decorated" type="MeshInstance" parent="."]
 mesh = ExtResource( 1 )

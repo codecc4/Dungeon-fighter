@@ -68,7 +68,7 @@ points = PoolVector3Array( 1.01818, 2.96365, 3, -1.01818, 2.96365, 2.09091, -1.0
 [sub_resource type="ConvexPolygonShape" id=22]
 points = PoolVector3Array( 1.01818, 4.01818, -0.0181818, -1.01818, -0.0181818, -0.0181818, -1.01818, 4.01818, -0.0181818, 1.01818, -0.0181818, -0.0181818 )
 
-[node name="concrete_stairs_center_only" type="Spatial"]
+[node name="concrete_stairs_center_only" type="StaticBody"]
 
 [node name="stairs_long_modular_center" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.65971, 0, 4.79121 )

@@ -2,7 +2,7 @@
 
 [ext_resource path="res://Assets/road.obj" type="ArrayMesh" id=1]
 
-[node name="try_ceiling" type="Spatial"]
+[node name="try_ceiling" type="StaticBody"]
 
 [node name="road" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.119684, 0, -2.37747 )

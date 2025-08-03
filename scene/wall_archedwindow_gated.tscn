@@ -5,7 +5,7 @@
 [sub_resource type="ConvexPolygonShape" id=1]
 points = PoolVector3Array( -1.91223, 0.0878839, -0.5, 1.85247, 3.85231, 0.5, 1.85247, 0.147637, 0.5, 1.91223, 0.0878839, -0.5, 1.91223, 3.91207, -0.5, -1.85247, 3.85231, 0.5, -1.91223, 3.91207, -0.5, -1.85247, 0.147637, 0.5 )
 
-[node name="wall_archedwindow_gated" type="Spatial"]
+[node name="wall_archedwindow_gated" type="StaticBody"]
 
 [node name="wall_archedwindow_gated" type="MeshInstance" parent="."]
 mesh = ExtResource( 1 )

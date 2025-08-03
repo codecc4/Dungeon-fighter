@@ -5,7 +5,7 @@
 [sub_resource type="ConvexPolygonShape" id=1]
 points = PoolVector3Array( -1.91223, 0.0877561, -0.5, 1.85247, 3.85207, 0.5, 1.85247, 0.147507, 0.5, 1.91223, 3.91182, -0.5, -1.85247, 3.85207, 0.5, 1.91223, 0.0877561, -0.5, -1.91223, 3.91182, -0.5, -1.85247, 0.147507, 0.5 )
 
-[node name="wall_arched" type="Spatial"]
+[node name="wall_arched" type="StaticBody"]
 
 [node name="wall_arched" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.248726, 0, 2.20106 )
